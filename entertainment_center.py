@@ -1,10 +1,11 @@
-import fresh_tomatoes
-import media
+import fresh_tomatoes #Python codes generates website.
+import media #Class Movie created in another .py file, determines information show in website.
 
 last_holiday = media.Movie("Last Holiday",
                            "A terminally ill woman fulfilling her dreams",
                            "https://upload.wikimedia.org/wikipedia/en/0/0e/Last_holiday.jpg",
                            "https://www.youtube.com/watch?v=fBUcxMNInL8")
+#movie_name = media.Movie("movie title","movie storyline","poster image url","trailer url")
 
 the_shawshank_redemption = media.Movie("The Shawshank Redemption",
                                        "A banker sentenced life term prison for crime he did not commit",
